@@ -1,0 +1,52 @@
+[debug] [2024-07-22T05:28:54.832Z] ----------------------------------------------------------------------
+[debug] [2024-07-22T05:28:54.843Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2024-07-22T05:28:54.843Z] CLI Version:   13.13.3
+[debug] [2024-07-22T05:28:54.844Z] Platform:      darwin
+[debug] [2024-07-22T05:28:54.844Z] Node Version:  v20.12.2
+[debug] [2024-07-22T05:28:54.844Z] Time:          Mon Jul 22 2024 00:28:54 GMT-0500 (Colombia Standard Time)
+[debug] [2024-07-22T05:28:54.844Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-22T05:28:54.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-22T05:28:54.938Z] > authorizing via signed-in user (juanjmorelos13@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/juanmorelos/Documents/Proyectos_especializacion/Codigo/costalover/frontend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-22T05:28:54.946Z] Using project from CLI flag: costalover
+[debug] [2024-07-22T05:28:54.948Z] > refreshing access token with scopes: []
+[debug] [2024-07-22T05:28:54.951Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-07-22T05:28:54.951Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-22T05:28:55.367Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-07-22T05:28:55.368Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-22T05:28:55.414Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/costalover [none]
+[debug] [2024-07-22T05:28:55.955Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/costalover 200
+[debug] [2024-07-22T05:28:55.955Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/costalover {"projectId":"costalover","projectNumber":"727819857835","displayName":"costalover","name":"projects/costalover","resources":{"hostingSite":"costalover"},"state":"ACTIVE","etag":"1_3fba1684-cc70-43d6-8c2e-0f8a1671f214"}
+[info] i  Using project costalover (costalover) 
+[info] 
+=== Hosting Setup
+[debug] [2024-07-22T05:28:55.981Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/costalover [none]
+[debug] [2024-07-22T05:28:56.364Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/costalover 200
+[debug] [2024-07-22T05:28:56.364Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/costalover {"projectId":"costalover","projectNumber":"727819857835","displayName":"costalover","name":"projects/costalover","resources":{"hostingSite":"costalover"},"state":"ACTIVE","etag":"1_3fba1684-cc70-43d6-8c2e-0f8a1671f214"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
